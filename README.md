@@ -112,22 +112,10 @@ sudo bash TBomb.sh
 - **MLHK infotech**<br>
 [-] Mail At: mlhkinfotech@gmail.com
 
-- **DarkestEntropy**<br>
-[-] Check At: https://github.com/darkestentropy
-
-- **The Black Hacker Roxstar**<br>
 
 - **MLHK HARIOM**<br>
 [-] Ping At: https://t.me/mlhkhariom
 
-- **0n1cOn3 (Stefan)**<br>
-[-] Mail At: 0n1cOn3@gmx.ch
-
-## Donators:
-
-**[@] 34D30Y ( 34db0y@protonmail.com  )**
-
-**[@] SC AMAN**
 
 # CONTACT ME:
 
