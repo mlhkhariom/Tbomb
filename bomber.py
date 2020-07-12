@@ -20,7 +20,7 @@ except ImportError:
 
 colors=['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;34m','\033[1;35m','\033[1;36m']
 W='\033[0m'
-# The Credit For This Code Goes To SpeedX And All Other Contributors Listed At https://github.com/TheSpeedX/TBomb
+# The Credit For This Code Goes To SpeedX And All Other Contributors Listed At https://github.com/mlhkinfotech/mypro
 # If You Wanna Take Credits For This Code, Please Look Yourself Again
 
 country_codes = {
@@ -240,14 +240,14 @@ def banner():
 
     clr()
     logo="""
-   ████████ █████                 ██
-   ▒▒▒██▒▒▒ ██▒▒██                ██
-      ██    ██  ██        ██   ██ ██
-      ██    █████▒  ████  ███ ███ █████
-      ██    ██▒▒██ ██  ██ ██▒█▒██ ██▒▒██
-      ██    ██  ██ ██  ██ ██ ▒ ██ ██  ██
-      ██    █████▒ ▒████▒ ██   ██ █████▒
-      ▒▒    ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
+     MLHK █████                 ██
+          ██▒▒██                ██
+          ██  ██        ██   ██ ██
+          █████▒  ████  ███ ███ █████
+          ██▒▒██ ██  ██ ██▒█▒██ ██▒▒██
+          ██  ██ ██  ██ ██ ▒ ██ ██  ██
+          █████▒ ▒████▒ ██   ██ █████▒
+        ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
                                          """
     print(random.choice(colors)+logo+W)
     print("\n")
@@ -727,7 +727,7 @@ def start(target, counter, delay, ch, cc):
                 else:
                     print('\n\n\tSorry Your Country is Not Supported...')
                     print(
-                        '\t\tPlease Send A Mail To ggspeedx29@gmail.com To Let Us Know...')
+                        '\t\tPlease Send A Mail To mlhkofficial@gmail.com To Let Us Know...')
                     input('Press Enter To Exit...')
                     exit()
         print(random.choice(colors))
@@ -736,12 +736,12 @@ def start(target, counter, delay, ch, cc):
         print("     Please keep your data connection active during bombing !!    ")
         print("==================================================================")
         print("             Target Number           : +" + str(cc) + " ", target)
-        print("             Number of Requests Sent : ", requested)
-        print("             Successful Requests     : ", success)
-        print("             Failed Requests         : ", failed)
+        print("             Number of Requests Sent - kite bhejne he : ", requested)
+        print("             Successful Requests- Kam Bn Gya    : ", success)
+        print("             Failed Requests -Kam Fail Ho gya        : ", failed)
         print("==================================================================")
         print("              Use this for fun, not for revenge !!                ")
-        print("              This Bomber Was Created By SpeedX !!                ")
+        print("              This Bomber Was Created By MLHK infotech !!                ")
         print("==================================================================")
         try:
             result = getapi(target, api, cc)
@@ -873,7 +873,7 @@ if not cc.strip() == "91":
     cnt = 0
     if pn.strip() == '' or dl <= 0 or nm <= 0 or cc.strip() == '' or cc.find('+') != -1:
         print('\n\n\tSeems Like You Have Given Wrong Inputs...')
-        input('\n\t\tPress Enter To Exit...')
+        input('\n\t\tPress Enter To Exit...bahar nikl....')
         banner()
         exit()
     ch = [0, 14, 15, 16]
@@ -883,7 +883,7 @@ ch = [i for i in range(17)]
 cbomb = False
 if pn.strip() == '' or dl <= 0 or nm < 0:
     print('\n\n\tSeems Like You Have Given Wrong Inputs...')
-    input('\n\t\tPress Enter To Exit...')
+    input('\n\t\tPress Enter To Exit...- bahar nikl....')
     banner()
     exit()
 if type == 1:
@@ -910,10 +910,10 @@ if nm == 0:
     print("             Delay               : ", dl)
     print("==================================================================")
     print("              Use this for fun, not for revenge !!                ")
-    print("              This Bomber Was Created By SpeedX !!                ")
+    print("              This Bomber Was Created By MLHK infotech !!                ")
     print("==================================================================")
     print(W)
-    input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
+    input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber - Chalu kr...\n')
     os.system('rm *.xxx* > /dev/null 2>&1')
     print("\n\nStarting Bomb....")
     for i in range(nt):
